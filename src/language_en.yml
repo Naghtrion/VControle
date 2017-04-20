@@ -1,0 +1,44 @@
+# use a variavel %prefix% nas outras mensagens
+prefix: '&6[VControle]'
+expired: 'Your time with %group% expired'
+message1: 'days with VIP'
+message2: 'Days with VIP'
+days: 'days'
+name: 'name'
+rvip: 'The Admin %admin% removed the VIP from %name%'
+cdays: 'The Admin %admin% changed the %group% of %name% to %days% days'
+group: 'group'
+reload: 'Config reloaded'
+myip: 'Endereço IP deste servidor: %ip%'
+myiperror: 'Falha ao obter o endereço IP deste servidor!'
+initialdate: 'Initial date: %date%'
+daysleft: 'Days left'
+addvip: 'Added %days% days to all from group %group%'
+success2: 'Acquired %group% with %days% days successfully'
+success3: '%name% acquired his %group% for %days% days successfully'
+success4: 'VIP group changed'
+error1: 'The days need to be more than 0'
+error2: 'DAYS need to be a number'
+error6: 'You are not a VIP'
+error7: 'Player not found'
+error8: 'Group not found'
+error9: 'is not a VIP'
+error10: 'Only one change per day'
+error11: 'You dont have permission'
+error12: 'You dont have this type of VIP'
+error13: 'This code is being processed'
+vcontrole:
+  # Erro ao se comunicar com a API do VControle
+  0: 'Houve um erro ao se comunicar com a API! Favor tente ativar mais tarde!'
+  # Chave do formato incorreto
+  1: 'Esta chave esta com o formato incorreto!'
+  # Secret Incorreta
+  2: 'A Chave secreta deste Servidor esta incorreta! Favor avise a um Superior!'
+  # Erro Interno no VControle
+  3: 'Erro por parte da API! Favor tente mais tarde!'
+  # Chave nao existe
+  4: 'Key nao existe!'
+  # Algum campo esta vazio (Secret || Chave)
+  5: 'Insira a key'
+  # IP bloqueado
+  6: 'Esta chave nao pertence a este Servidor!'

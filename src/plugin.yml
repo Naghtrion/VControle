@@ -1,0 +1,48 @@
+name: VControle
+main: com.naghtrion.vcontrole.VControle
+version: 1
+softdepend: [Vault]
+commands:
+   usarkey:
+      description: Utiliza key.
+      usage: /<command> <key>
+   usekey:
+      description: Uses a VIP key.
+      usage: /<command> <key>
+   viptime:
+      description: Mostra data de vencimento do vip.
+      usage: /<command>
+   tempovip:
+      description: Mostra data de vencimento do vip.
+      usage: /<command>
+   vcontrole:
+      description: Mostra os comandos do plugin.
+      aliases: vipzero
+      usage: /<command>
+   tirarvip:
+      description: Tira o VIP de um jogador.
+      usage: /<command> <nome>
+   rvip:
+      description: Remove a VIP from player.
+      usage: /<command> <name>
+   changevip:
+      description: Change your VIP.
+      usage: /<command> <group>
+   trocarvip:
+      description: Muda seu VIP.
+      usage: /<command> <grupo>
+   mudardias:
+      description: Muda os dias do VIP.
+      usage: /<command> <nome> <grupo> [dias]
+   changedays:
+      description: Change the days of VIP.
+      usage: /<command> <name> <group> [days]
+   darvip:
+      description: Da o VIP diretamente.
+      usage: /<command <nome> <grupo> <dias>
+   givevip:
+      description: Give VIP, directly.
+      usage: /<command> <name> <group> <days>
+   addvip:
+      description: More days.
+      usage: /<command> <group> <days>
